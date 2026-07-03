@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { api } from "../api/client";
+import { api } from "../api";
 import type { Hygiene, ModelCard, RepBias } from "../api/types";
 import { FlagBadges } from "../components/FlagBadges";
 import { pct } from "../format";

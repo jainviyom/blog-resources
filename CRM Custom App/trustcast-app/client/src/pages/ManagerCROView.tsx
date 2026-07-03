@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { api } from "../api/client";
+import { api } from "../api";
 import type { Forecast, Opportunity, ScenarioResult, Waterfall } from "../api/types";
 import { ConfidenceRangeBar } from "../components/ConfidenceRangeBar";
 import { WaterfallChart } from "../components/WaterfallChart";

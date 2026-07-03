@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { api } from "../api/client";
+import { api } from "../api";
 import type { Forecast, Opportunity } from "../api/types";
 import { ConfidenceRangeBar } from "../components/ConfidenceRangeBar";
 import { DealTable } from "../components/DealTable";

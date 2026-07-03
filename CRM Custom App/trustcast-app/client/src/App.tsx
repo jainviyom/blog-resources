@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { api } from "./api/client";
+import { api } from "./api";
 import type { Rep } from "./api/types";
 import { RepView } from "./pages/RepView";
 import { ManagerCROView } from "./pages/ManagerCROView";

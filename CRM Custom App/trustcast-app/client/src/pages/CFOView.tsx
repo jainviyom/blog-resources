@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { api } from "../api/client";
+import { api } from "../api";
 import type { AccuracyRecord, AuditEntry, Forecast, Reconciliation } from "../api/types";
 import { ConfidenceRangeBar } from "../components/ConfidenceRangeBar";
 import { CalibrationChart } from "../components/CalibrationChart";
